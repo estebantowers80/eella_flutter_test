@@ -30,17 +30,18 @@ El JSON devuelto contiene información sobre las fotos, incluyendo:
 
 El proyecto sigue una arquitectura modular. La estructura de carpetas es la siguiente:
 
-lib/
-    models/ # Modelos de datos 
-        photos_public_model.dart # Modelo para manejar la respuesta JSON de Flickr 
-    screens/ # Pantallas 
-        photo_list_screen.dart # Pantalla principal que muestra las imágenes y etiquetas 
-    services/ # Servicios para manejar la lógica de negocio 
-        photos_public_service.dart # Servicio para consumir la API de Flickr 
-    utils/ # Utilidades y configuraciones 
-        routes.dart # Rutas de navegación  
-    widgets/ # Componentes reutilizables  
-         photo_card.dart # Componente para mostrar cada imagen y sus etiquetas
+lib/ 
+│ 
+├── models/ # Modelos de datos 
+│   └── photos_public_model.dart # Modelo para manejar la respuesta JSON de Flickr 
+├── screens/ # Pantallas 
+│   └── photo_list_screen.dart # Pantalla principal que muestra las imágenes y etiquetas 
+├── services/ # Servicios para manejar la lógica de negocio 
+│   └── photos_public_service.dart # Servicio para consumir la API de Flickr 
+├── utils/ # Utilidades y configuraciones 
+│    └── routes.dart # Rutas de navegación  
+├── widgets/ # Componentes reutilizables  
+    └── photo_card.dart # Componente para mostrar cada imagen y sus etiquetas
 
 
 
